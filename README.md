@@ -1,2 +1,19 @@
-# Subscription-plans-
-Responsive subscription plan page with modern pricing cards, hover effects, and clean UI using HTML &amp; CSS. Ideal for SaaS or service-based websites. Fully customizable and mobile-friendly. View live preview or clone to build your own pricing layout.
+
+# 💳 Subscription Plan Page
+
+A modern, responsive **subscription pricing page** built with HTML and CSS. Designed to showcase pricing tiers for SaaS products, services, or digital platforms. Includes smooth hover effects and a clean layout optimized for desktop and mobile.
+
+## ✨ Features
+
+- 💠 Three-column pricing layout
+- 🖱️ Interactive hover effects
+- 📱 Fully responsive design
+- 🎨 Easy-to-customize styles
+- 💡 Semantic HTML structure
+
+## 🔧 Technologies Used
+
+- HTML5
+- CSS3 (Flexbox)
+
+
