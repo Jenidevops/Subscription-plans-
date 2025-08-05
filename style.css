@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.pricing-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.main-heading {
+  background-color: #d946ef; /* pink banner */
+  color: #111;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 24px;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  background-color: #111;
+  color: white;
+  padding: 30px 20px;
+  border-radius: 20px;
+  width: 220px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+
+.price {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.plan-name {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #222;
+  text-align: left;
+}
+
+.features i {
+  margin-right: 8px;
+  font-size: 15px;
+  vertical-align: middle;
+}
+
+.enabled i {
+  color: #d946ef; /* purple check icon */
+}
+
+.disabled i {
+  color: #999; /* grey circle */
+}
+.enabled {
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.enabled:hover {
+  background-color: #333;
+  transform: scale(1.05);
+}
+.disabled {
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.disabled:hover {
+  background-color: #333;
+  transform: scale(1.05);
+}
+
+
+
