@@ -1,9 +1,27 @@
+
 body {
   margin: 0;
+  padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f2f2f2;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("image/music.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  z-index: -1;
 }
 
+    
 .pricing-section {
   padding: 40px 20px;
   text-align: center;
@@ -13,18 +31,32 @@ body {
   background-color: #d946ef; /* pink banner */
   color: #111;
   display: inline-block;
-  padding: 10px 20px;
-  border-radius: 5px;
+  padding: 20px 40px;
+  border-radius: 30px;
   font-size: 24px;
   margin-bottom: 40px;
   font-weight: 600;
+  animation: main-heading 2s ease-in-out infinite;
 }
-
+.main-heading:hover {
+      background-color: #c026d3; /* darker pink on hover */
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      transform: translateY(-5px);
+    }
+  @keyframes main-heading {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08); /* only a slight growth */
+  }
+}  
 .cards-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
+ 
 }
 
 .card {
@@ -32,7 +64,7 @@ body {
   color: white;
   padding: 30px 20px;
   border-radius: 20px;
-  width: 220px;
+  width: 300px;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 .card:hover {
